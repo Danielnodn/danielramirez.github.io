@@ -1,7 +1,7 @@
 ---
 title: "Docker Deployment Guide: From Development to Production"
 date: 2024-10-15
-summary: "Learn how to containerize your applications with Docker, optimize images, and deploy to production with best practices"
+summary: Learn how to containerize your applications with Docker, optimize images, and deploy to production with best practices
 tags:
   - Docker
   - DevOps
@@ -10,8 +10,9 @@ tags:
 authors:
   - me
 featured: false
+draft: true
+status: draft
 ---
-
 Docker simplifies deployment by packaging your application with all dependencies. This guide covers containerizing apps, optimizing images, and production deployment.
 
 ## Why Docker?

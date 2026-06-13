@@ -1,26 +1,20 @@
 ---
-title: "TaskFlow - Project Management Tool"
-date: 2024-09-20
-summary: "Real-time collaborative task management application with drag-and-drop Kanban boards and team features"
+title: "ABC Bioempaques – B2B Digital Transformation & UX Strategy"
+date: 2020-01-18
+summary: "Data-informed digital strategy for a Mexican industrial packaging company, optimizing B2B user experience and content structure."
 tags:
-  - Full-Stack
-  - Next.js
-  - Real-Time
-  - Productivity
+  - B2B Digital
+  - UX/UI
+  - Content Strategy
 tech_stack:
-  - Next.js
-  - TypeScript
-  - Prisma
-  - PostgreSQL
-  - WebSockets
-  - Tailwind CSS
+  - GA4
+  - WordPress
+  - Figma
+  - HTML5
 links:
-  - type: github
-    url: https://github.com/alexjohnson/taskflow
-    label: Code
   - type: live
-    url: https://taskflow-demo.example.com
-    label: Demo
+    url: https://abcbioempaques.com.mx
+    label: site
 featured: true
 status: "Live"
 role: "Solo Developer"
@@ -32,139 +26,118 @@ highlights:
   - "Featured on Product Hunt"
 ---
 
-A modern, intuitive task management tool built for remote teams. Features real-time collaboration, customizable workflows, and beautiful UI.
+A modern B2B platform designed for industrial buyers. Features simplified wholesale navigation, industry-specific content, and streamlined bulk ordering workflows.
 
 ## Overview
 
-TaskFlow was born out of frustration with existing project management tools being either too complex or lacking essential features. I built a solution that's powerful yet simple to use.
+ABC Bioempaques, a Mexican manufacturer of corrugated cardboard packaging serving the automotive, pharmaceutical, consumer goods, and logistics industries, required a modern B2B digital presence. I led the digital transformation project to simplify the wholesale purchasing journey and restructure technical content for better accessibility and user experience.
 
-## Key Features
+## Key Achivements
 
-### Core Functionality
-- **Kanban Boards** - Drag-and-drop interface for visual task management
-- **Real-Time Sync** - See changes instantly as team members update tasks
-- **Multiple Views** - Switch between Kanban, List, and Calendar views
-- **Task Details** - Rich descriptions, attachments, comments, and checklists
-- **Labels & Filters** - Organize and find tasks quickly
+### B2B Navigation & User Journey Optimization
 
-### Collaboration
-- **Team Workspaces** - Separate spaces for different projects/teams
-- **@Mentions** - Tag team members in comments for notifications
-- **Activity Feed** - Track all changes and updates
-- **Permissions** - Role-based access control (admin, member, viewer)
+- Simplified site architecture and navigation tailored for industrial buyers, significantly reducing steps in the wholesale purchasing process
+- Designed industry-specific user journeys for automotive, pharmaceutical, logistics, and consumer goods sectors
+- Implemented wholesale-first features including bulk ordering support and quick reorder functionality
 
-### Productivity
-- **Keyboard Shortcuts** - Power user features for faster navigation
-- **Templates** - Reusable board templates for common workflows
-- **Due Dates & Reminders** - Never miss a deadline
-- **Time Tracking** - Built-in timer for task duration tracking
+### Content Strategy & Information Architecture
 
-## Technical Implementation
+- Redesigned content structure to clearly communicate technical product specifications and industrial applications
+- Created dedicated sector-specific landing pages that improved information discovery for each target industry
+- Enhanced overall information architecture, making complex technical data more accessible to B2B decision-makers
 
-### Real-Time Features
-Used WebSockets (Socket.io) for instant updates across all connected clients. Implemented optimistic UI updates for snappy user experience even before server confirmation.
+## Operational Context
 
-### Drag & Drop
-Built custom drag-and-drop using react-beautiful-dnd with smooth animations and mobile touch support.
-
-### Performance
-- Implemented virtual scrolling for boards with 1000+ tasks
-- Optimized database queries with proper indexing
-- Used Redis for session storage and caching
-- Image optimization with Next.js Image component
-
-### Authentication
-- Secure auth with NextAuth.js
-- Support for email/password and OAuth (Google, GitHub)
-- JWT tokens with automatic refresh
+- Product Focus – Corrugated cardboard solutions for industrial packaging
+- Target Markets – Automotive, pharmaceutical, consumer goods, and logistics sectors
+- Territory – Mexican manufacturing and distribution network
 
 ## Architecture
 
 Built as a modern monolith with Next.js API routes:
 
 ```
-┌─────────────┐     ┌──────────────┐     ┌─────────────┐
-│  Next.js    │────▶│   API Routes │────▶│ PostgreSQL  │
-│  (React)    │     │  (REST/WS)   │     │  + Prisma   │
-└─────────────┘     └──────────────┘     └─────────────┘
-       │                    │
-       │             ┌──────▼───────┐
-       └────────────▶│  Socket.io   │
-                     │  (Real-Time) │
-                     └──────────────┘
+┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
+│   B2B Website   │────▶│    UX Research  │────▶│   Optimized     │
+│  (Industrial)   │     │   (Navigation)  │     │  User Journey   │
+└─────────────────┘     └─────────────────┘     └─────────────────┘
+         │                                              │
+         ▼                                              ▼
+┌─────────────────┐                          ┌─────────────────┐
+│   Content       │                          │   Simplified    │
+│   Strategy      │─────────────────────────▶│  B2B Purchase   │
+└─────────────────┘                          │      Flow       │
+                                             └─────────────────┘
 ```
 
-## Challenges Solved
+## Challenges & Solutions
 
-### Real-Time Conflicts
-**Problem**: Multiple users editing same task simultaneously
+### Complex B2B Navigation
 
-**Solution**: Implemented operational transformation (OT) for conflict resolution and last-write-wins strategy with conflict notifications
+**Problem**: The existing website used a B2C-oriented structure, making it difficult for industrial clients to find product specifications and complete wholesale orders.  
 
-### Mobile Performance
-**Problem**: Drag-and-drop laggy on mobile devices
+**Solution**: Restructured the site navigation and information hierarchy for B2B users. Introduced industry-specific landing pages and reduced the number of clicks needed to access technical data and initiate purchases.
 
-**Solution**: Optimized touch handlers and reduced re-renders using React.memo and useMemo
+### Generic Content Strategy
 
-### Scale
-**Problem**: Growing user base causing performance issues
+**Problem**: Content was not segmented by industry, forcing clients from different sectors to sift through irrelevant information.  
 
-**Solution**: Added Redis caching layer and optimized database queries, reducing response time by 65%
+**Solution**:  Developed a segmented content strategy with dedicated sections for each vertical. Tailored product applications, specifications, and use cases to automotive, pharmaceutical, logistics, and consumer goods clients
+
+
+### Wholesale Purchase Friction
+
+**Problem**: The purchasing process was not optimized for bulk orders or repeat industrial customers  
+
+**Solution**: Streamlined the B2B buying flow, improved product filtering by industrial application, and added functionality to support faster repeat and wholesale orders
 
 ## Results
 
-- 📈 **Users**: 2000+ active users within 3 months
-- ⭐ **Product Hunt**: Featured and received 200+ upvotes
-- 🚀 **Performance**: Sub-100ms API response times
-- 💯 **Uptime**: 99.8% uptime since launch
-- 📱 **Mobile**: 40% of traffic from mobile devices
+- **User Experience**: Simplified navigation and reduced purchase steps for industrial clients
+- **Content Relevance**: Industry-specific pages improved information discovery and relevance
+- **Process Efficiency**: More intuitive wholesale journey supporting bulk and repeat orders
+- **Digital Foundation**: Established a scalable B2B website structure ready for future analytics integration
+
+Note: Early-career project focused on foundational improvements. Performance insights based on qualitative feedback and observed operational efficiencies
+
 
 ## Tech Stack
 
-**Frontend**
-- Next.js 14 (App Router)
-- TypeScript
-- Tailwind CSS
-- Framer Motion (animations)
-- React Beautiful DnD
+**Platform**
+- Wordpress
 
-**Backend**
-- Next.js API Routes
-- Prisma ORM
-- PostgreSQL
-- Socket.io for WebSockets
-- NextAuth.js for authentication
+**Analytics**
+- GA4 - Search Console
 
-**Infrastructure**
-- Vercel for hosting
-- Supabase for PostgreSQL
-- Redis Cloud for caching
-- AWS S3 for file storage
+**UX Design**
+- Information Architecture
+- Navegation Mapping
 
-## User Feedback
+## Skills 
+- **B2B Digital Strategy**: Industrial client journeys, wholesale UX optimization
+- **UX & IA**: Navigation restructuring, information architecture
+- **Content Strategy**: Sector segmentation, technical content organization
+- **Project Management**: Stakeholder alignment, end-to-end digital transformation
 
-> "Finally, a task manager that doesn't get in my way. The real-time updates are magical!" - Sarah K., Product Manager
+## Future Improvements
 
-> "We switched from Trello and haven't looked back. TaskFlow is faster and more intuitive." - Mike R., Engineering Lead
+With my current Data Science skills, I would now add:
 
-## Open Source
+- Implement GA4 with event tracking segmented by industry vertical
+- Conduct funnel analysis to identify drop-offs in the B2B purchase process
+- Perform customer behavior segmentation across different industries
+- Set up A/B testing for navigation and product page variations
 
-TaskFlow is open source! Contributions welcome.
-
-**License**: MIT  
-**GitHub**: [alexjohnson/taskflow](https://github.com/alexjohnson/taskflow)  
-**Demo**: [Try it live](https://taskflow-demo.example.com)
-
-## What's Next
+## Lessions Learned
 
 Currently working on:
-- [ ] Mobile apps (iOS & Android)
-- [ ] Gantt chart view
-- [ ] Advanced reporting and analytics
-- [ ] API for third-party integrations
-- [ ] Offline mode support
+- [ ] B2B users prioritize technical clarity, efficiency, and bulk functionality over visual appeal
+- [ ] Industry segmentation is essential — a one-size-fits-all approach fails to serve specialized industrial clients
+- [ ] Early implementation of analytics would have enabled stronger quantitative validation of UX changes
+- [ ] Strong foundational work in navigation and content creates immediate operational value even before advanced metrics are added
 
 ---
 
-**Status**: ✅ Live & Actively Maintained  
-**Try it**: [taskflow-demo.example.com](https://taskflow-demo.example.com)
+## View project
+  
+**Site**: [abcbioempaques.com.mx](https://abcbioempaques.com.mx)  

@@ -1,153 +1,169 @@
 ---
-title: "E-Commerce Platform"
-date: 2024-11-15
-summary: "E-commerce API backend with Stripe payments, inventory management, and real-time webhooks"
-tags: 
-  - Backend
-  - Node.js
-  - API
+title: Digital Analytics & E-commerce
+date: 2020-08-20
+summary: E-commerce API backend with Stripe payments, inventory management, and
+  real-time webhooks
+tags:
   - E-Commerce
+  - Analytics
+  - UX
 tech_stack:
-  - React
-  - TypeScript
-  - Node.js
-  - Express
-  - PostgreSQL
-  - Stripe
-  - Redis
-  - Docker
+  - Prestashop
+  - Figma
+  - Intagram Shopping
+  - GA4
+  - HTML5
 links:
-  - type: github
-    url: https://github.com/alexjohnson/ecommerce-platform
-    label: Code
   - type: live
-    url: https://shop-demo.example.com
-    label: Demo
+    url: https://chiarabarcelona.es
+    label: site
 featured: true
-status: "Live"
-role: "Lead Developer"
-duration: "4 months"
+status: Live
+role: Lead Developer
+duration: 4 months
 team_size: 2
 highlights:
-  - "Handles 10k+ concurrent users"
-  - "99.9% uptime SLA"
-  - "Processing $50k+ monthly transactions"
-  - "60% faster page load vs competitors"
+  - Handles 10k+ concurrent users
+  - 99.9% uptime SLA
+  - Processing $50k+ monthly transactions
+  - 60% faster page load vs competitors
+
 ---
 
-A modern, scalable e-commerce platform built from scratch with performance and user experience as top priorities.
+A scalable e-commerce platform with performance optimization and exceptional user experience at its core
 
 ## Overview
 
-Built a complete e-commerce solution for a mid-sized retail company looking to expand online. The platform handles everything from product catalog management to payment processing and order fulfillment.
+Chiara Barcelona, a Madrid-based luxury leather accessories brand founded by designer Clara Duñach, sought to strengthen its online presence and build a loyal community. I led a comprehensive digital marketing and community-driven strategy to enhance brand engagement, optimize the customer journey, and boost online sales through data-informed content and user experience improvements.
 
-## Key Features
+## Key Achivements
 
-### Customer-Facing
-- **Product Catalog** - Dynamic filtering, sorting, and search with instant results
-- **Shopping Cart** - Real-time inventory checking and price calculations
-- **Checkout** - Secure payment processing via Stripe with Apple Pay/Google Pay support
-- **Order Tracking** - Real-time order status updates with email notifications
-- **User Accounts** - Profile management, order history, and saved addresses
+### Community Engagement & Growth
+- Developed and executed a cohesive **inbound content strategy** focused on brand storytelling, lifestyle, and emotional connection with the audience
+- Built and nurtured an engaged community across Instagram through consistent brand voice and interactive content
+- Designed **product launch campaigns** that significantly increased audience interaction and user-generated content
 
-### Admin Dashboard
-- **Inventory Management** - Real-time stock tracking and low-stock alerts
-- **Order Management** - Bulk order processing and fulfillment workflow
-- **Analytics** - Sales dashboards, customer insights, and revenue reporting
-- **Product Management** - Easy product creation with image uploads and variants
 
-## Technical Highlights
+### Content Strategy & Social Media
+- Centralized content planning and cross-platform coordination, ensuring unified messaging and maximized reach
+- Created high-performing content calendars that improved brand awareness and community participation
+- Actively managed community interactions, fostering relationships and turning followers into brand advocates
 
-### Performance Optimization
-- Implemented Redis caching reducing database queries by 70%
-- Optimized images with WebP format and lazy loading
-- Server-side rendering for critical pages improving SEO and load times
-- CDN integration for global content delivery
 
-### Scalability
-- Microservices architecture allowing independent scaling
-- Horizontal scaling with load balancing
-- Database read replicas for improved query performance
-- Message queues for async processing (order emails, inventory updates)
+## E-commerce & UX Optimization
 
-### Security
-- JWT authentication with refresh tokens
-- Rate limiting to prevent abuse
-- Input validation and sanitization
-- PCI-compliant payment processing via Stripe
+### Navigation Restructuring
+- Checkout Flow Optimization – Agilized the buying process by removing unnecessary steps, reducing friction and improving conversion rates
+- Navigation & Site Architecture – Restructured website navigation to simplify discovery and reduce clicks to purchase
+- Layout & Visual Strategy – Redesigned key pages to enhance visual hierarchy and emotional connection with products
+
+### Data & Performance Tracking
+- Implemented Google Analytics with custom KPIs focused on engagement, community growth, and conversion metrics
+- Conducted full customer journey mapping to identify and eliminate friction points
+- Monitored content performance and community sentiment to continuously refine the strategy
+
+### Operational Improvements
+- Enhanced admin tools for efficient inventory, order, and product management to support faster campaign execution
 
 ## Architecture
 
 ```
-┌─────────────┐     ┌──────────────┐     ┌─────────────┐
-│  React SPA  │────▶│   REST API   │────▶│ PostgreSQL  │
-└─────────────┘     │  (Express)   │     └─────────────┘
-                    └──────┬───────┘
-                           │
-                    ┌──────▼───────┐
-                    │    Redis     │
-                    │   (Cache)    │
-                    └──────────────┘
-```
+┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
+│   Website/Shop  │────▶│Google Analytics│────▶│  KPI Dashboard │
+│   (E-commerce)  │     │   (GA4/Firebase)│     │   (Reports)     │
+└─────────────────┘     └─────────────────┘     └─────────────────┘
+                                 │
+                                 ▼
+                        ┌─────────────────┐
+                        │  Social Media   │
+                        │  (Content Plan) │
+                        └─────────────────┘
 
+```                        
 ## Challenges & Solutions
 
-### Challenge 1: Inventory Sync
-**Problem**: Multiple users buying same product simultaneously causing overselling
+### Challenge 1: Complex Navigation & High Drop-off Rates
 
-**Solution**: Implemented optimistic locking with Redis to ensure inventory accuracy during concurrent purchases
+**Problem**: The website navigation was overly complex, forcing users to go through too many steps to purchase, resulting in significant cart abandonment
 
-### Challenge 2: Payment Processing
-**Problem**: Handling payment failures gracefully while maintaining order integrity
+**Solution**: Led a complete restructuring of the site architecture and checkout flow. Simplified navigation, eliminated redundant pages, and agilized the buying process by removing unnecessary steps. Validated improvements using GA4 funnel exploration and user journey mapping
 
-**Solution**: Built robust state machine for order processing with automatic retry logic and customer notifications
+### Challenge 2: Misaligned KPIs
 
-### Challenge 3: Performance at Scale
-**Problem**: Slow page loads during traffic spikes
+**Problem**: Existing metrics failed to reflect true business priorities, making it difficult to measure content effectiveness and community growth
 
-**Solution**: Implemented multi-layer caching strategy (CDN, Redis, in-memory) and database query optimization
+**Solution**: Defined and implemented custom KPIs that directly linked content performance and community engagement to brand awareness and revenue goals. Aligned all reporting with the product launch calendar for better strategic decision-making
+
+### Challenge 3: Fragmented Content Strategy
+
+**Problem**: Social media efforts were inconsistent, uncoordinated across platforms, and lacked proper tracking
+
+**Solution**: Designed and executed a centralized inbound content strategy with clear objectives, audience segmentation, and cross-platform coordination. Established consistent brand voice and systematic performance tracking to improve engagement and community building
 
 ## Results
 
-- **Performance**: 60% faster page load times compared to previous platform
-- **Conversion**: 25% increase in conversion rate due to improved UX
-- **Uptime**: 99.9% uptime over 6 months in production
-- **Scale**: Successfully handled Black Friday with 10k concurrent users
-- **Revenue**: Processing over $50k in monthly transactions
+- **User Experience**: Significantly reduced purchase friction, resulting in higher checkout completion rates  
+- **Community & Online Presence**: Increased audience engagement and visibility through strategic, cohesive content 
+- **Data-Driven Clarity**: Established a clear customer journey roadmap and actionable insights via Google Analytics 4
+- **Strategic Alignment:**: KPIs now directly support business objectives and product launches
+
+**Note**: Specific percentage improvements available upon request due to client confidentiality.
 
 ## Tech Stack Details
 
-**Frontend**
-- React 18 with TypeScript
-- Tailwind CSS for styling
-- React Query for data fetching
-- React Hook Form for forms
+**Analytics**
+- Google Analytics 4 (GA4)
+- Google Tag Manager
 
-**Backend**
-- Node.js with Express
-- PostgreSQL with Prisma ORM
-- Redis for caching and sessions
-- Bull for job queues
+**E-commerce**
+- Shopify / WooCommerce
 
-**Infrastructure**
-- Docker containers
-- AWS EC2 for hosting
-- AWS S3 for image storage
-- Cloudflare CDN
-- GitHub Actions for CI/CD
+**Social & Community**
+- Meta Business Suite
+- Instagram Shopping
 
-**Payment & Services**
-- Stripe for payments
-- SendGrid for emails
-- Sentry for error tracking
+**Reporting**
+- Loocker Studio
+- Excel
+
+**Content Tools**
+- Content calendars
+- Scheduling tools
+- Inbound platform
+
+## Skills Demostrated
+
+**Data & Analytics**
+- GA4 Implementation
+- Funnel Analysis
+- KPI Development
+- Journey Mapping
+
+**Digital Marketing**
+- Inbound Content strategy
+- cross-platform coordination
+- Campaing planning
+
+**Community management**
+- Audience Segmentation
+- Engagement Strategy
+
+**E-commerce**
+- Conversion Otimization
+- Checkout Flow Improvement
+- UX Analysis
+
+**Soft Skills**
+- Skateholder Aligment
+- Data Storytelling
+- Strategic Execution
 
 ## Future Improvements
 
-- [ ] Mobile app (React Native)
-- [ ] Multi-language support
-- [ ] Wishlist and product recommendations
-- [ ] Live chat support
-- [ ] Advanced analytics dashboard
+- [ ] Implement heatmaps (hotjar/CrazyEgg) for deeper behavioral insights
+- [ ] Develop automated reporting dashboards with Google Analytics API
+- [ ] Introduce A/B testing framework for product pages and content formats
+- [ ] Explore predictive analytics for content performance and community growth
 
 ## Screenshots
 
@@ -155,13 +171,9 @@ Built a complete e-commerce solution for a mid-sized retail company looking to e
 
 ## Lessons Learned
 
-1. **Start with Performance**: Built with performance in mind from day one rather than optimizing later
-2. **Testing Matters**: Comprehensive test suite caught critical bugs before production
-3. **Monitor Everything**: Proper logging and monitoring essential for maintaining uptime
-4. **User Feedback**: Regular user testing revealed UX issues we wouldn't have found otherwise
+1. Aligning analytics with business goals from day one ensures every effort drives real impact
+2. Quantitative user data reveals hidden friction points that intuition alone cannot identify
+3. A structured, centralized content strategy dramatically outperforms fragmented, ad-hoc posting in building community and driving results
 
----
-
-**Project Status**: ✅ Live in Production  
-**GitHub**: [View Source Code](https://github.com/alexjohnson/ecommerce-platform)  
-**Demo**: [Try it Live](https://shop-demo.example.com)
+ 
+**Shop**: [View project](https://chiarabarcelona.es)

@@ -1,7 +1,7 @@
 ---
-title: "Building a Production-Ready REST API with Node.js and Express"
+title: Building a Production-Ready REST API with Node.js and Express
 date: 2024-12-10
-summary: "A comprehensive guide to building scalable, secure REST APIs with proper error handling, validation, and documentation"
+summary: A comprehensive guide to building scalable, secure REST APIs with proper error handling, validation, and documentation
 tags:
   - Node.js
   - Express
@@ -11,8 +11,9 @@ tags:
 authors:
   - me
 featured: true
+status: draft
+draft: true
 ---
-
 Building a REST API seems straightforward until you need to handle authentication, validation, error handling, and documentation. This guide covers best practices for production-ready APIs.
 
 ## Table of Contents
