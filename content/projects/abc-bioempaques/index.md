@@ -1,11 +1,10 @@
 ---
-title: "ABC Bioempaques – B2B Digital Transformation & UX Strategy"
+title: ABC Bioempaques – B2B Digital Transformation & UX Strategy
 date: 2020-01-18
-summary: "Data-informed digital strategy for a Mexican industrial packaging company, optimizing B2B user experience and content structure."
+summary: Data-informed digital strategy for a Mexican industrial packaging company, optimizing B2B user experience and content structure.
 tags:
-  - B2B Digital
   - UX/UI
-  - Content Strategy
+  - Digital Strategy
 tech_stack:
   - GA4
   - WordPress
@@ -16,23 +15,22 @@ links:
     url: https://abcbioempaques.com.mx
     label: site
 featured: true
-status: "Live"
-role: "Solo Developer"
-duration: "2 months"
+status: published
+role: Solo Developer
+duration: 2 months
 team_size: 1
 highlights:
-  - "Real-time collaboration with WebSockets"
-  - "2000+ active users"
-  - "Featured on Product Hunt"
+  - Real-time collaboration
+  - 2000+ active users
+  - Featured on Product Hunt
 ---
-
 A modern B2B platform designed for industrial buyers. Features simplified wholesale navigation, industry-specific content, and streamlined bulk ordering workflows.
 
 ## Overview
 
 ABC Bioempaques, a Mexican manufacturer of corrugated cardboard packaging serving the automotive, pharmaceutical, consumer goods, and logistics industries, required a modern B2B digital presence. I led the digital transformation project to simplify the wholesale purchasing journey and restructure technical content for better accessibility and user experience.
 
-## Key Achivements
+## Key Achievements
 
 ### B2B Navigation & User Journey Optimization
 
@@ -111,7 +109,7 @@ Note: Early-career project focused on foundational improvements. Performance ins
 
 **UX Design**
 - Information Architecture
-- Navegation Mapping
+- Nav Mapping
 
 ## Skills 
 - **B2B Digital Strategy**: Industrial client journeys, wholesale UX optimization
@@ -128,7 +126,7 @@ With my current Data Science skills, I would now add:
 - Perform customer behavior segmentation across different industries
 - Set up A/B testing for navigation and product page variations
 
-## Lessions Learned
+## Lesions Learned
 
 Currently working on:
 - [ ] B2B users prioritize technical clarity, efficiency, and bulk functionality over visual appeal

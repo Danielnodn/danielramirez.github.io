@@ -4,10 +4,8 @@ date: 2026-03-10
 summary: "End-to-end digital strategy for an early childhood education platform, from UX-focused website design to Meta Ads optimization and community growth."
 tags:
   - UX/UI
-  - Digital Transformation
-  - Performance Marketing
-  - Meta Ads Strategy
-
+  - Digital Strategy
+  - SEM
 tech_stack:
   - Figma
   - Framer
@@ -34,10 +32,9 @@ End-to-end digital strategy for an early childhood education platform, from UX-f
 
 Happy Brains is an early childhood education platform powered by teachers, nursing professionals, and pedagogy experts, supporting the development of children aged 1–8 and their families. I led the full digital transformation, designing and launching a modern website from scratch while managing Meta Ads, community engagement, content strategy, and ongoing platform optimization.
 
-## Key Achivements
+## Key Achievements
 
 ### Web Design & UX/UI
-
 - Designed and developed a fully custom, high-conversion website using Figma and Framer, with strong emphasis on intuitive navigation and emotional design  
 - Implemented mobile-first, responsive architecture tailored to parent behavior and device usage  
 - Created a cohesive visual identity that communicates trust, warmth, and educational excellence
@@ -63,7 +60,7 @@ Happy Brains is an early childhood education platform powered by teachers, nursi
 │  (Framer + Figma)│  (Meta Ads + CM)│  (Direct Parent Messaging)  │
 │                 │                 │                             │
 │ • Custom Design │ • Meta Ads      │ • Lead Nurturing            │
-│ • Mobile-Optimized│ • Community Mgmt│ • Quick Responses           │
+│ • Mobile-Optimized│ • Community   │ • Quick Responses           │
 │ • UX Focused    │ • Awareness     │ • Enrollment Follow-up      │
 │ • Blog Content  │ • Conversions   │ • Personalized Support      │
 └─────────────────┴─────────────────┴─────────────────────────────┘
@@ -107,11 +104,11 @@ Note: Detailed ROAS, CTR, conversion rates, and engagement metrics available upo
 
 ## Tech Stack
 
-**Desing & Development**
+**Design & Development**
 - Figma - Framer
 
 **Advertising**
-- Meta Ads Manager(Facebook & Instagram)
+- Meta Ads Manager (Facebook & Instagram)
 
 **Analytics**
 - GA4

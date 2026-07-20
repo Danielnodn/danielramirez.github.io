@@ -30,42 +30,56 @@ interests:
   - "Analytics Dashboards"
   - "Data Pipelines"
 education:
-  - degree: "B.S. Computer Science"
-    institution: "State University"
+  - degree: "Data Science Master Degree"
+    institution: "IEXE Universidad"
+    start: "2025-01-01"
+    end: "2026-03-04"
+    summary: "Focus on pipeline automation, statistical modeling, and predictive analytics for FinTech.
+
+      Built AWS data pipelines (S3, EC2, RDS) and Python dashboards with PostgreSQL, Pandas, and Tableau — boosted reporting productivity 30%.
+
+      \n"
+  - degree: "Communication and Digital Marketing"
+    institution: "Universidad Tecnológica de México"
     start: "2015-09-01"
     end: "2019-05-31"
-    summary: "Focus on software engineering and distributed systems.
-
-      Senior project on distributed caching systems.\n"
-    button:
-      text: "View Project"
-      url: "https://github.com/alexjohnson/senior-project"
-      icon: "brands/github"
+    summary: "Focus on digital marketing, media analytics, cross-channel strategy, and UX-driven communication.  
+        
+        Designed visual storytelling assets and web experiences using Figma and Adobe Suite.
+      \n"
+#    button:
+#     text: "View Project"
+#     url: "https://github.com/alexjohnson/senior-project"
+#     icon: "brands/github"
 experience:
-  - role: "Senior Software Engineer"
-    org: "Tech Corp"
+  - role: "Digital Strategist"
+    org: "Freelance"
     start: "2023-01-01"
-    summary: "Lead development of microservices architecture serving 1M+ users.
+    summary: "Developed cross-platform content strategies that drove 30% higher engagement and 50% organic traffic growth.
 
-      Improved API response time by 40% through optimization.
+      Optimized Meta and Google Ads campaigns, delivering 25% ROI uplift, 30% higher ROAS, and 10% lower CPL.
 
-      Mentored team of 5 junior developers.\n"
-  - role: "Full-Stack Developer"
-    org: "Startup Inc"
-    start: "2021-06-01"
-    end: "2022-12-31"
-    summary: "Built and deployed 3 production applications from scratch.
+      Designed responsive Figma interfaces for e-commerce, improving usability 20% and accelerating handoff 20%. 
 
-      Implemented CI/CD pipeline reducing deployment time by 60%.
+      Mentored team of creatives and designers.
 
-      Led migration from monolith to microservices architecture.\n"
-  - role: "Junior Developer"
-    org: "Web Agency"
-    start: "2020-01-01"
-    end: "2021-05-31"
-    summary: "Developed client websites using React and modern web technologies.
+      Implemented GA4 with custom KPIs, identified friction points, and reduced checkout flow from 6 to 3 steps.
+      \n"
+  - role: "Community Manager Intern"
+    org: "ABC Bioempaques S.A de C.V."
+    start: "2019-06-01"
+    end: "2020-02-07"
+    summary: "
+      Expanded LinkedIn organic reach 20% through targeted, audience-segmented B2B content. 
+      
+      Designed multi-platform marketing assets in Figma and Adobe XD, improving brand visual sentiment 20%.
 
-      Participated in code reviews and agile ceremonies.\n"
+      Increased project delivery speed 20% by implementing agile sprint workflows across marketing operations.\n"
+  - role: "Customer Support Executive"
+    org: "Sykes México"
+    start: "2016-11-01"
+    end: "2019-01-05"
+    summary: "Managed high-volume CRM ticketing, resolving complex AFORE pension and insurance inquiries.\n"
 skills:
   - name: "Development"
     items:
@@ -80,13 +94,13 @@ skills:
   - name: "DevOps"
     items:
       - label: "Docker"
-        level: 4
+        level: 3
       - label: "AWS"
         level: 4
       - label: "CI/CD"
         level: 5
 languages:
   - name: "English"
-    level: 5
-    label: "Native"
+    level: 3
+    label: "intermediate"
 awards: []

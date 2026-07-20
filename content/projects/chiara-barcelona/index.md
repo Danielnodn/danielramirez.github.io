@@ -1,42 +1,45 @@
 ---
-title: Digital Analytics & E-commerce
+title: "Chiara Barcelona Digital Analytics & E-commerce"
 date: 2020-08-20
-summary: E-commerce API backend with Stripe payments, inventory management, and
-  real-time webhooks
+summary: A scalable headless e-commerce built for performance, automation, and real-time 
 tags:
-  - E-Commerce
-  - Analytics
-  - UX
+  - E-commerce
+  - Digital Strategy
+  - UX/UI
 tech_stack:
-  - Prestashop
+  - PrestaShop
   - Figma
-  - Intagram Shopping
+  - Meta Business
+  - Instagram Shopping
   - GA4
-  - HTML5
 links:
   - type: live
     url: https://chiarabarcelona.es
     label: site
 featured: true
 status: Live
-role: Lead Developer
+role: e-comm digital consultant
 duration: 4 months
-team_size: 2
+team_size: 3
 highlights:
-  - Handles 10k+ concurrent users
-  - 99.9% uptime SLA
-  - Processing $50k+ monthly transactions
-  - 60% faster page load vs competitors
+  - Instagram + Google Ads 
+  - GA4 funnel analysis
+  - SEO
+  - Client real-time collaboration
 
 ---
 
-A scalable e-commerce platform with performance optimization and exceptional user experience at its core
+A scalable e-commerce platform with performance optimization and exceptional user experience
 
 ## Overview
 
-Chiara Barcelona, a Madrid-based luxury leather accessories brand founded by designer Clara Duñach, sought to strengthen its online presence and build a loyal community. I led a comprehensive digital marketing and community-driven strategy to enhance brand engagement, optimize the customer journey, and boost online sales through data-informed content and user experience improvements.
+Chiara Barcelona, a Madrid-based luxury leather accessories brand founded by designer Clara Duñach, sought to strengthen its online presence and build a loyal community.I lead a comprehensive digital marketing and community-driven strategy to enhance: 
 
-## Key Achivements
+- Brand engagement 
+- Optimize the customer journey 
+- Boost online sales through data-informed content and user experience improvements
+
+## Key Achievements
 
 ### Community Engagement & Growth
 - Developed and executed a cohesive **inbound content strategy** focused on brand storytelling, lifestyle, and emotional connection with the audience

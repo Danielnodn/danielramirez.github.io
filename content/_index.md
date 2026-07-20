@@ -84,46 +84,33 @@ sections:
       title: "Tech Stack"
       subtitle: "Technologies I use to build things"
       categories:
-        - name: "Languages"
+        - name: "Languages & Data Bases"
           items:
-            - name: "TypeScript"
-              icon: "devicon/typescript"
-            - name: "JavaScript"
-              icon: "devicon/javascript"
+            - name: "HTML5"
+              icon: "devicon/html5"
+            - name: "SQL"
+              icon: "devicon/postgresql"
             - name: "Python"
               icon: "devicon/python"
-            - name: "Go"
-              icon: "devicon/go"
-        - name: "Frontend"
+        - name: "Data & Analytics"
           items:
-            - name: "React"
-              icon: "devicon/react"
-            - name: "Next.js"
-              icon: "devicon/nextjs"
-            - name: "Tailwind CSS"
-              icon: "devicon/tailwindcss"
-            - name: "Alpine.js"
-              icon: "devicon/alpinejs"
-        - name: "Backend"
+            - name: "Tableau"
+              icon: "devicon/tableau"
+            - name: "Pandas"
+              icon: "devicon/pandas"
+            - name: "Numpy"
+              icon: "devicon/numpy"
+            - name: "Google Analytics"
+              icon: "devicon/google"
+        - name: "Cloud & Design"
           items:
-            - name: "Node.js"
-              icon: "devicon/nodejs"
-            - name: "Express"
-              icon: "devicon/express"
-            - name: "PostgreSQL"
-              icon: "devicon/postgresql"
-            - name: "Redis"
-              icon: "devicon/redis"
-        - name: "DevOps"
-          items:
-            - name: "Docker"
-              icon: "devicon/docker"
             - name: "AWS"
               icon: "devicon/amazonwebservices"
-            - name: "GitHub Actions"
-              icon: "brands/github"
-            - name: "Vercel"
-              icon: "devicon/vercel"
+            - name: "Figma"
+              icon: "devicon/figma"
+            - name: "Adobe Suite"
+              icon: "devicon/photoshop"
+      
     design:
       style: "grid"
       show_levels: false
@@ -145,20 +132,20 @@ sections:
       title: "Experience"
       date_format: "Jan 2006"
       items:
-        - title: "Senior Software Engineer"
-          company: "Tech Corp"
+        - title: "Freelance Digital Strategist"
+          company: "freelance"
           company_url: ""
           company_logo: ""
-          location: "San Francisco, CA"
-          date_start: "2023-01-01"
+          location: "Mexico City, MX"
+          date_start: "2023-02-01"
           date_end: ""
           description: |-
-            * Lead development of microservices architecture serving 1M+ users
-            * Improved API response time by 40% through optimization
-            * Mentored team of 5 junior developers
-            * Tech stack: React, Node.js, PostgreSQL, AWS
+            * Scaled Meta & Google Ads: +30% engagement, +25% ROI, +30% ROAS, -10% CPL
+            * Grew organic traffic +50%, conversions +20%, rankings +30 positions via SEO
+            * Mentored team of creatives and designers
+            * Tech stack: Figma, GA4, Python, Meta Business Suite
         - title: "Full-Stack Developer"
-          company: "Startup Inc"
+          company: "freelance"
           company_url: ""
           company_logo: ""
           location: "Remote"
@@ -169,11 +156,11 @@ sections:
             * Implemented CI/CD pipeline reducing deployment time by 60%
             * Collaborated with design team on UI/UX improvements
             * Tech stack: Next.js, Express, MongoDB, Docker
-        - title: "Junior Developer"
-          company: "Web Agency"
+        - title: ""
+          company: ""
           company_url: ""
           company_logo: ""
-          location: "New York, NY"
+          location: ""
           date_start: "2020-01-01"
           date_end: "2021-05-31"
           description: |-
@@ -252,7 +239,7 @@ sections:
     content:
       title: "Open to Opportunities"
       text: |-
-        I'm currently looking for **senior engineering** or **tech lead** roles.
+        I'm currently looking for **Community Manager** or **Growth Marketing** roles.
 
         Let's connect and discuss how I can help your team.
       button:
