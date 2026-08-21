@@ -14,10 +14,9 @@ sections:
         enable: true
         prefix: "I build"
         strings:
-          - "data growth systems"
-          - "ml marketing"
-          - "dashboards"
-          - "data pipelines"
+          - "Marketing Stacks"
+          - "ML Campaigns"
+          - "Conversion Data Flows"
         type_speed: 70
         delete_speed: 40
         pause_time: 2500

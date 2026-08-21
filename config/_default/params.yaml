@@ -35,6 +35,7 @@ hugoblox:
   footer:
     style: minimal
     language_switcher: true
+    powered_by: false
   copyright:
     notice: © {year} {name}
   content:
