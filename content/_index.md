@@ -243,7 +243,7 @@ sections:
         Let's connect and discuss how I can help your team.
       button:
         text: "Download Resume"
-        url: "uploads/resume.pdf"
+        url: "https://danielnodn.github.io/daniel-ramirez-resume/"
         new_tab: true
     design:
       card:

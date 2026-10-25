@@ -49,3 +49,5 @@ hugoblox:
       style: mla
   search:
     enable: true
+  custom_css:
+    - "css/custom.css"

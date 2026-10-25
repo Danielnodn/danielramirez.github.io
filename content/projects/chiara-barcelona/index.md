@@ -14,7 +14,7 @@ tech_stack:
   - GA4
 links:
   - type: live
-    url: https://chiarabarcelona.es
+    url: https://danielnodn.github.io/ChiaraBarcelona/
     label: site
 featured: true
 status: Live

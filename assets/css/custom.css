@@ -1,0 +1,4 @@
+footer a[href*="hugoblox"], 
+footer .powered-by {
+  display: none !important;
+}
